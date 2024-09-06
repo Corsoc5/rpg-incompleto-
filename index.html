@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Embusca da cura</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/rpgc5.png" alt="">
+            <p>Você é um ser que possoui uma mascara e veio de um lugar sombrio, que tem um objetivo de acabar com uma praga que afeta todo o reino, o que irá fazer?</p>
+            <button class="btn-proximo" data-proximo="1">Procurar a fonte da praga</button>
+            <button class="btn-proximo" data-proximo="2">Explorar o reino</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Após procurar por um tempo a fonte você acha uma camara que emana uma nevoa e ela está bloqueada por três selos.</p>
+            <button class="btn-proximo" data-proximo="3">Achar uma forma de quebrar os selos</button>
+            <button class="btn-proximo" data-proximo="4">Tentar forçar os selos</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Depois de explorar um pouco o reino, você acaba encontrando um cavaleiro preparado para lutar contra qualquer criatura. </p>
+            <button class="btn-proximo" data-proximo="5">Lutar</button>
+            <button class="btn-proximo" data-proximo="6">Fuguir</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Embusca de uma forma de quebrar os selos você acaba achando uma vidente, que indica a localização de cada parte do mesmo.  </p>
+            <button class="btn-proximo" data-proximo="7">Ir para cada uma das localizações</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/rpgc5.2.png" alt="perdendo a luta">
+            <p>Após tentar forçar os selos aparece uma guarda, que tentando impedi-lo acaba o matando. </p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Logo depois de você lutar com o cavaleiro e vencer, você acaba explorando mais ainda o reino e acha a localização de uma camara que está bloqueada por três selos, e por explorar o reino você sabe o localização dos selos. </p>
+            <button class="btn-proximo" data-proximo="7">Tentar quebrar os selos</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Depois de fuguir, você acaba achando uma cidade chamada de "Cidade das Lagrimas" ao observar as placas você indêntifica um ferreiro, e decide melhorar sua arma.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir em direção ao ferreiro</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Depois de quebrar os selos você segue até a camara, no entanto ao tentar passar pela porta você observa uma guarda bloqueando a porta.</p>
+            <button class="btn-proximo" data-proximo="9">Lutar </button>
+            <button class="btn-proximo" data-proximo="10">Seguir em frente</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Ao ir para o ferreiro e melhorar sua arma, você conta sobre seu objeivo e após, o ferreiro ouvir sua história ele decide ajuda-ló contando tudo que sabe, falando sobre uma camara e seus selos.</p>
+            <button class="btn-proximo" data-proximo="7">Ir tentar impedir a praga</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>No inicio da luta você se vê com dificuldades, mas depois de um tempo você consegue vencer e decide atravesar a porta .</p>
+            <button class="btn-proximo" data-proximo="11">Seguir em frente</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ao tentar iguinorar a guarda ela de bloqueia, então você se vê forçado a lutar</p>
+            <button class="btn-proximo" data-proximo="12">Lutar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/rpcc5.3.png" alt="Final imaginavel">
+            <p>Após passar pela porta você mata aquele que portava a praga, no entanto ao fazer esse ato a praga acaba entrando dentro em você, e no fim você acabo sendo selado e percebendo que teve o mesmo destino daquele que matou   </p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Após ser impedido de passar vocês acabam tendo uma luta complicada um contra o outro, mas no fim você sai vitórioso.</p>
+            <button class="btn-proximo" data-proximo="11">Passar pela porta</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
